@@ -260,11 +260,6 @@ Additionally, these guidelines discuss generative AI, referencing generative mod
 To ensure that Commerce open data are primed for use with generative AI systems, the Working Group first considered the ways in which its open data is currently used within these systems, specifically for training, testing and validation, fine-tuning, and data retrieval and real-time response (see Table 1).
 
 <table>
-  <caption>
-    <h4>
-      Table 1: Utilization of Commerce open data in generative AI systems
-    </h4>
-  </caption>
   <thead>
     <tr>
       <th>Process</th>
@@ -295,6 +290,8 @@ To ensure that Commerce open data are primed for use with generative AI systems,
     </tr>
   </tbody>
 </table>
+
+*Table 1: Utilization of Commerce open data in generative AI systems*
 
 **Training**: Commerce's open data are used to train foundation models, which are large-scale AI models that can be adapted to a wide range of tasks across different domains. Foundation models form the backbone of generative AI systems, and the training data they are built on serves as the initial input that helps models formulate patterns, relationships, and associations. The quality, diversity, and volume of training data are critical factors in determining a model’s ability to generate accurate and nuanced results. In this context, optimizing Commerce open data for generative AI could significantly enhance the training process of generative AI systems by providing a vast, high-quality source of structured and unstructured data.
 
@@ -891,11 +888,6 @@ Benchmarking is a common model evaluation approach in AI/ML and evaluates the de
 Providing prompt libraries, collections of pre-written, templated prompts and ideal responses from a generative AI system, tailored across commonly used Commerce open datasets, can help train models how to interact with live data (data that is changing regularly and is typically different from the training data). Commerce can provide developers with lists of common prompts and ways their model should best respond to them. This could look like Figure 5, which consists of a table with the type of question or prompt, the example question or prompt, the ideal response, what to avoid, the relevant API call(s), and relevant data in response. This method can also capture nuances about the data within the model responses. Capturing accuracy and nuance are necessary when answering a prompt that necessitates a live response, meaning a response stemming from data that the model is not trained on and is retrieved from an outside source.
 
 <table>
-  <caption>
-    <h4>
-      Figure 5: An example question and ideal response with an example API call using the American Community Survey data
-    </h4>
-  </caption>
   <thead>
     <tr>
       <th>Type of Question or Prompt</th>
